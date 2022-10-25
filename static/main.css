@@ -1,0 +1,135 @@
+body {
+  background-color: antiquewhite;
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 50px;
+}
+
+a, p {
+  color: #ecf0f4;
+}
+
+
+#bottom{
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+
+.button {
+  background-color: greenyellow;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.container {
+  background-blend-mode: normal;
+  align-items: center;
+  justify-content: center; 
+  margin: auto;
+  max-width: 550px;
+  box-shadow: 2px 2px 13px -4px #000000;
+}
+
+.delete-link {
+  color: #efdddd;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.header-bar {
+  background: linear-gradient(90deg, #5d4e4b 0%, #665250 43%, #5e4e4c 100%);
+  border-radius: 5px 5px 0 0;
+  color: #f0e6e6;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header-bar a {
+  color: #FAFAFA;
+}
+
+.header-bar h3 {
+  margin: 0;
+}
+
+.incomplete-tasks {
+  margin: 0;
+}
+
+.search-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.task-complete-icon {
+  background-color: #69C069;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.task-incomplete-icon {
+  background-color: #DADADA;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.task-title {
+  display: flex;
+}
+
+.task-title a {
+  color: #e4ecf3;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.task-wrapper {
+  align-items: center;
+  background-color: #FFFFFF;
+  border-top: 1px solid #E2E2E2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#add-link {
+  color: #f5eae9;
+  font-size: 42px;
+  text-decoration: none;
+  text-shadow: 1px 1px #e8e1e0;
+}
+
+#search-add-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+input[type=text]
+input[type=password]
+
+label {
+  display: block;
+}
+
+textarea {
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  padding: 8px;
+  width: 70%;
+}
